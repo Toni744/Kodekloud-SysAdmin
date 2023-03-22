@@ -24,4 +24,4 @@ sudo systemctl start mariadb
 
 sudo systemctl status mariadb
 #check status to ensure service has started
-.
+
