@@ -1,0 +1,19 @@
+DNS Troubleshooting
+
+The system admins team of xFusionCorp Industries has noticed intermittent issues with DNS resolution in several apps . App Server 2 in Stratos Datacenter is having some DNS resolution issues, so we want to add some additional DNS nameservers on this server. As a temporary fix we have decided to go with Google public DNS (ipv4). Please make appropriate changes on this server.
+
+Solution:-
+ssh on App Server According to task
+
+ssh tony@stapp01  #App Server 1  Ir0nM@n
+### OR
+ssh steve@stapp02 #App Server 2  Am3ric@
+### OR
+ssh banner@stapp03 #App Server 3 BigGr33n
+#######################
+sudo vi /etc/resolv.conf
+
+Insert these lines below "search stratos.xfusioncorp.com"
+
+nameserver 8.8.8.8
+nameserver 8.8.4.4
