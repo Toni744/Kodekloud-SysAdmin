@@ -5,11 +5,11 @@ The system admins team of xFusionCorp Industries has noticed intermittent issues
 Solution:-
 ssh on App Server According to task
 
-ssh tony@stapp01  #App Server 1  Ir0nM@n
+ssh tony@stapp01  #App Server 1  ******
 ### OR
-ssh steve@stapp02 #App Server 2  Am3ric@
+ssh steve@stapp02 #App Server 2  ******
 ### OR
-ssh banner@stapp03 #App Server 3 BigGr33n
+ssh banner@stapp03 #App Server 3 ******
 #######################
 sudo vi /etc/resolv.conf
 
